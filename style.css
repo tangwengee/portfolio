@@ -798,8 +798,12 @@ footer {
 		font-size: 7vw;
 	}
 
+	#intro h3 {
+		font-size: 12px;
+	}
+
 	#logo {
-		height: 10vh;
+		height: 7vh;
 	}
 
 	.menu > li > a {
@@ -812,7 +816,7 @@ footer {
 	}
 
 	.menu ul a {
-		font-size: 10px;
+		font-size: 8px;
 	}
 
 	#introtitle h1 {
