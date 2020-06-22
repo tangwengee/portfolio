@@ -19,7 +19,7 @@ html,body {
 	padding: 0;
 	overflow-x: hidden;
 	scroll-behavior: smooth;
-	background-color: whitesmoke;
+	background-color: black;
 }
 
 #intro h1 {
@@ -795,7 +795,7 @@ footer {
 @media only screen and (max-width:680px) {
 
 	#intro h1 {
-		font-size: 8vw;
+		font-size: 7vw;
 	}
 
 	#logo {
@@ -812,7 +812,7 @@ footer {
 	}
 
 	.menu ul a {
-		font-size: 12px;
+		font-size: 10px;
 	}
 
 	#introtitle h1 {
