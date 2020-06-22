@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>TANG</title>
+	<link rel="manifest" href="manifest.json">
+
+    <!-- For the progressive web app icon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />  
+    <link rel="apple-touch-icon" href="images/hello-icon-152.png">   
+    <meta name="theme-color" content="white"/>  
+    <meta name="apple-mobile-web-app-capable" content="yes">  
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
+    <meta name="apple-mobile-web-app-title" content="Hello World"> 
+    <meta name="msapplication-TileImage" content="images/hello-icon-144.png">  
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+
+	<script src="https://kit.fontawesome.com/a076d05399.js">
+
+	</script>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap" rel="stylesheet">
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div id="notification">
+		A new version of this app is available. Click <a id="reload">here</a> to update.
+	</div>
+
+	<!-----------------------BULB INTRO------------------------------->
+	<div id="introbg">
+
+		<!---------------LOGO + name--------------------->
+		<div id = "logoimg">
+			<a href="."><img id="logo" src ="logo.png"/></a>
+		</div>
+
+		<div id="intro">
+			<h3>Welcome To My Repository!</h3>
+			<hr style="width:100%"/> 
+			<h1>TANG WEN GEE</h1>
+			<hr style="width:100%;"/> 
+		</div>
+
+
+		<main id="container">
+
+			<!-------------------MENU BAR 1---------------------->
+			<div class = "dropdown">
+				<ul class="menu abt">
+					<li>
+						<a href="#">About Me</a>
+						<ul class = "udl">
+							<li><a href="#link">Introduction</a></li>
+							<li><a href="#time">Timeline</a></li>
+							<li><a href="#contactme">Contact Me</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+
+			<!-------------------MENU BAR 2---------------------->
+			<div class = "dropdown">
+				<ul class="menu fom">
+					<li>
+						<a href="#">Find Out More</a>
+						<ul class = "udl">
+							<li><a href="index2.html">NUS Modules</a></li>
+							<li><a href="index2.html">My Experience</a></li>
+							<li><a href="index2.html">My Achievements</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+
+			<!-------------------MENU BAR 3---------------------->
+			<div class = "dropdown">
+				<ul class="menu">
+					<li>
+						<a href="#">CV & Resume</a>
+						<ul class = "udl">
+							<li><a href="CV.pdf" download="WenGee_CV">Download CV</a></li>
+							<li><a href="Resume.pdf" download="WenGee_Resume">Download Resume</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+
+		</main>
+
+		<!-------------------Social media---------------------->
+		<ul id = "icons"> 
+			<!--<li><a href = "http://www.facebook.com"><i class = "fab fa-facebook-f"></i></li>-->
+			<li id = "ig"><a href = "http://www.instagram.com/woo.goo" target="_blank"/><i class = "fab fa-instagram"></i></a></li>
+			<li id = "linkedin"><a href = "http://www.linkedin.com/in/tangwengee" target="_blank"/><i class = "fab fa-linkedin-in"></i></a></li>
+			<li id = "github"><a href = "http://www.github.com/tangwengee" target="_blank"/><i class = "fab fa-github"></i></a></li>
+		</ul>
+
+		<!-------------------Quote---------------------->
+		<p id = "quote"><em>“It was the possibility of darkness that made the day seem so bright.” ― Stephen King</em></p>
+
+	</div>
+
+	
+	<!-------ABOUT ME PAGE ---------------->
+	<div id = "introduction">
+		<div id = "introtitle">
+			<h1 id = "link">Let Me Introduce Myself</h1>
+			<img id = "myface" src="me.jpg"/>
+				<h3 id = "oneline">I am currently an undergraduate in National University of Singapore, second year pursuing the Bachelor of Computing in Information Systems.</h3>
+				
+				<div id = "leftdiv">
+					<h3 >FULL NAME</h3>
+					<p>Tang Wen Gee</h3>
+					<h3 >AGE & NATIONALITY</h3>
+					<p>20 year old, Singaporean</h3>
+					<h3>LANGUAGES</h3>
+					<p>English, Mandarin, Java, HTML, CSS, Javascript and more to come...</p>
+				</div>
+
+				<div id = "rightdiv">
+				<h3>SUMMARY</h3>
+				<p>I am passionate in technology and business operations. In my free time, I take up courses and read up about Information Technology to strengthen my technical skills and broaden by perspectives. Also, I actively participates in community projects as I strongly believe in giving back to society. These help to hone my project management & leadership skills too!</p>
+				</div>
+		</div>
+	</div>
+
+	<!-------TIMELINE PAGE---------------->
+	<div id = "time">
+
+		<!-- The Timeline -->
+		<ul class="timeline">
+			<h2 id = "timetitle">My Education</h2>
+
+			<!-- Item 1 -->
+			<li>
+				<div class="direction-r">
+					<div class="flag-wrapper">
+						<span class="flag">Chung Cheng High Main</span>
+						<span class="time-wrapper"><span class="time">2013-2016</span></span>
+					</div>
+					<div class="desc">Completed GCE O'levels with Pure Physics, Chemistry, Biology with A. Math and E. Geog and Higher Chinese.</div>
+				</div>
+			</li>
+			
+			<!-- Item 2 -->
+			<li>
+				<div class="direction-l">
+					<div class="flag-wrapper">
+						<span class="flag">Nanyang Junior College</span>
+						<span class="time-wrapper"><span class="time">2017-2018</span></span>
+					</div>
+					<div class="desc">Completed GCE A'levels with H2 Physics, Chemistry, Mathematics and Economics.</div>
+				</div>
+			</li>
+
+			<!-- Item 3 -->
+			<li>
+				<div class="direction-r">
+					<div class="flag-wrapper">
+						<span class="flag">NUS SoC</span>
+						<span class="time-wrapper"><span class="time">2019-Present</span></span>
+					</div>
+					<div class="desc">Undergraduate taking Information Systems, intending to specialise in Digital Innovation and minor in Economics.</div>
+				</div>
+			</li>
+
+			<h6 id = "deets">click <a href = "index2.html">here</a> for details.</h6>
+		</ul>
+
+	</div>
+
+
+	<!-------CONTACT ME PAGE ---------------->
+	<div id = "contactme">
+		<div id = "title">
+			<h1>LET'S WORK TOGETHER!</h1>
+			<h5>I would love to hear from you.</h5>
+		</div>
+
+		<div id = "special">
+		 <p>Email me at tangwengee@gmail.com or fill in this form!</p>
+		</div>
+
+		<!----FORM------>
+		<form>      
+			<input name="name" type="text" class="name feedback-input" placeholder="Name" />   
+			<input name="email" type="text" class="email feedback-input" placeholder="Email" />
+			<textarea name="text" class="message feedback-input" placeholder="Message"></textarea>
+			<input type="submit" value="SUBMIT" id = "submit"/>
+		</form>
+
+	</div>
+
+	<!----------------------FOOTER BAR---------------------------->
+	<footer>
+		<div id = "cr">
+			<p id = "end">Done personally by Tang Wen Gee | June 2020 - All Rights Reserved</p>
+		</div>
+		<div>
+			<ul id = "iconsend"> 
+				<!--<li><a href = "http://www.facebook.com"><i class = "fab fa-facebook-f"></i></li>-->
+				<li id = "ig"><a href = "http://www.instagram.com/woo.goo" target="_blank"/><i class = "fab fa-instagram"></i></a></li>
+				<li id = "linkedin"><a href = "http://www.linkedin.com/in/tangwengee" target="_blank"/><i class = "fab fa-linkedin-in"></i></a></li>
+				<li id = "github"><a href = "http://www.github.com/tangwengee" target="_blank"/><i class = "fab fa-github"></i></a></li>
+			</ul>
+		</div>
+	</footer>
+
+  <script src="script.js"></script>
+	<script src = "registerServiceWorker.js"></script>
+</body>
+
+</html>

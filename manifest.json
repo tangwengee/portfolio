@@ -1,0 +1,17 @@
+{
+  "name": "TANG",
+  "short_name": "WG",
+  "lang":"en-US",
+  "start_url":"index.html",
+  "display":"standalone",
+  "background_color":"white",
+  "theme_color":"white",
+   "icons": [
+    {
+      "src": "new_icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "splash_pages": null
+}
